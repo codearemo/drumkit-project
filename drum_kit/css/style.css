@@ -1,0 +1,48 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-image: url("http://www.clipartkid.com/images/566/band-silhouette-displaying-20-images-for-concert-band-silhouette-46LU1Z-clipart.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.row {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: rgba(250, 250, 250, 1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.col-sm-1 {
+    padding: .5% 1%;
+    border: solid #000000 3px;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto 1%;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: all 0.075s;
+}
+
+span {
+    color: #FFF338;
+}
+
+
+.col-sm-10 {
+    margin-top: 25%;
+    padding-left: 12.5%;
+}
+
+.playing {
+    border: solid #FFF338 3px;
+    color: #FFF338;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #FFF338;
+}
