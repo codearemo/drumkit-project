@@ -1,0 +1,2 @@
+# drumkit-project
+practicing javascript
